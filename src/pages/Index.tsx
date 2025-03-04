@@ -40,13 +40,13 @@ const Index = () => {
           <img
             src="/assets/images/dmi_dhani_logo.png"
             alt="Dhani Finance Logo"
-            className="mx-auto h-20 w-auto mb-8"
+            className="mx-auto h-20 w-auto mb-8 animate-float"
           />
         </div>
 
         <Card className="bg-[linear-gradient(to_bottom,_#24243e,_#302b63,_#0f0c29)] shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] border border-white/20">
           <CardHeader>
-            <CardTitle className="text-2xl font-medium text-center text-white">Welcome Back</CardTitle>
+            <CardTitle className="text-2xl font-medium text-center text-white font-lobster text-glow animate-float">Welcome Back</CardTitle>
           </CardHeader>
           <CardContent>
             <form onSubmit={handleLogin} className="space-y-6">
